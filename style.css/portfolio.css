@@ -1,0 +1,53 @@
+:root {
+  --title-black: #212121;
+  --filter-bg: #f5f4fa;
+  --accent-color-blue: #2196f3;
+  --white-bg-color: #ffffff;
+  --primary-text-color: #757575;
+}
+
+/* Стили ссылок Фильтр */
+.filer {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  background-color: var(--filter-bg);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Стили секции примеры работ */
+.title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-type {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.examples {
+  text-decoration: none;
+}
+
+/* Интерактивные действия */
+.filer:hover,
+.filer:focus,
+.examples:focus {
+  color: var(--white-bg-color);
+  background-color: var(--accent-color-blue);
+}

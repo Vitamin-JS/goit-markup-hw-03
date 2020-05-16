@@ -1,0 +1,338 @@
+/* Основной цвет текста Серый  #757575  */
+/* Второстепенный цвет текста Черный #212121   */
+/* Белый цвет фона Section  #FFFFFF   */
+/* Серый цвет фона  #F5F4FA  */
+/* Бєкграунд Футера #2F303A   */
+/* Акцент - Голубой цвет #2196F3  */
+/* Font Raleway */
+/* Font Roboto */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-bg-color: #ffffff;
+  --gray-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --accent-color-blue: #2196f3;
+  --wtah-we-do-bg: rgba(47, 48, 58, 0.8);
+  --made-by-studentsGoIT: rgba(255, 255, 255, 0.4);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+/* Общие стили контейнера */
+.container {
+  width: 1200px;
+  background-color: rgb(149, 233, 233);
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+/* Черный шрифт для лого и других тайтлов */
+.logo {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+/* header {
+  height: 80px;
+  display: inline;
+} */
+
+/* Синий цвет лого */
+.logo-blue {
+  color: var(--accent-color-blue);
+}
+
+/* Отступы лого */
+.logo-font {
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 0;
+  padding: 0;
+}
+/* Обнуление отступа <p>-лого  */
+.logo-position {
+  margin: 0;
+}
+
+/* Шрифт лого в навгации и футере */
+.logo-font,
+.logo-font-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03pc;
+}
+
+/* Отступы блока навигации */
+.logo.nav-font,
+.contacts.nav-font {
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.nav-contacts > li:first-child {
+  margin-right: 20px;
+}
+
+.nav-contacts {
+  margin-left: auto;
+  padding: 0;
+}
+
+/* Шрифт в навигации */
+.nav-font {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Размеры блока хедер */
+.header-menu,
+.header-menu > li,
+.nav-contacts,
+.nav-contacts > li {
+  display: inline-block;
+}
+
+/* Цвет контактов в навигации и футере */
+.contacts {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/* Стили для  секции hero */
+.hero-title {
+  margin: 0;
+  color: var(--white-bg-color);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  height: 600px;
+}
+
+/* Стиль кнопки героя */
+.hero .button {
+  height: 50px;
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 46px;
+}
+
+/* Отступы блока Преимущества */
+.advatn {
+  margin: 0;
+  padding: 0;
+}
+
+.advant-list {
+  display: inline-block;
+  margin: 40px 0 0;
+  width: calc((1200px - 90px) / 4);
+}
+
+.advant-list:not(:last-child) {
+  margin-right: 26px;
+}
+
+/* Стили текста секции Преимущества */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: auto;
+}
+
+.text-advetages {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Стиль секции Чем мы занимаемся */
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.whatWeDo .logo {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.whatWeDo-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Бэкграунд для белого текста - потом удалить */
+.whatWeDo-bg {
+  background-color: var(--wtah-we-do-bg);
+}
+
+/* Отступы UL блока Чем мы занимаемся */
+.whatWeDo-ul {
+  margin: 0;
+  padding-left: 0;
+}
+/* Размеры списка работ */
+.whatWeDo-list {
+  display: inline-block;
+  width: cal(1140 / 3); /* (1200px - 60px) */
+}
+
+.whatWeDo-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Стили секции Наша команда */
+.our-team .logo {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.proffesion {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Стили секции Постоянные клиенты */
+.social-links {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* Стили Футера */
+.logo-font-footer {
+  font-size: 22px;
+}
+
+/* ===============Заголовки белым цветом */
+.white-text {
+  color: var(--white-bg-color);
+}
+
+.footer-bg {
+  background-color: var(--footer-bg-color);
+}
+.address-footer {
+  color: var(--white-bg-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.contacts-footer {
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.input-email {
+  width: 270px;
+  height: 50px;
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .button {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.madeByStudents {
+  color: var(--made-by-studentsGoIT);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+/* Интерактивные действия */
+.hover-text:hover,
+.hover-text:focus {
+  color: var(--accent-color-blue);
+}
+
+.focus-text:focus,
+.focus-text .white-text:focus {
+  color: var(--accent-color-blue);
+}
+
+.button {
+  color: var(--white-bg-color);
+  background-color: var(--accent-color-blue);
+  border: none;
+}
