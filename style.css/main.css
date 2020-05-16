@@ -296,6 +296,7 @@ h2 {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
 /* Отступы заголовка Постоянные клиенты */
 .clients .logo {
   margin: 0;
@@ -377,6 +378,22 @@ h2 {
   margin-bottom: 0;
 }
 
+/* Ссылки на соц.сети в футере  */
+.footerSocialLinks {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  display: inline-block;
+  margin-top: 21px;
+}
+/* Отступы  справа соц.ссылок футера */
+.footer-social-list:not(:last-child) {
+  margin-right: 11px;
+}
+
+.form {
+  margin-top: 21px;
+}
+
 .input-email {
   width: 270px;
   height: 50px;
@@ -399,6 +416,7 @@ h2 {
   font-weight: 900;
   font-size: 16px;
   line-height: 1.9;
+  margin-left: 12px;
 }
 
 .madeByStudents {
