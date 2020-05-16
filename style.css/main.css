@@ -21,6 +21,7 @@
 
 html {
   box-sizing: border-box;
+  width: 1600px;
 }
 
 *,
@@ -45,7 +46,7 @@ body {
 /* Общие стили контейнера */
 .container {
   width: 1200px;
-  background-color: rgb(149, 233, 233);
+  background-color: rgb(48, 97, 97);
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
@@ -390,10 +391,11 @@ h2 {
   margin-right: 11px;
 }
 
+/* Отступы поля форма футер */
 .form {
   margin-top: 21px;
 }
-
+/* Стили поля e-mail */
 .input-email {
   width: 270px;
   height: 50px;
@@ -407,7 +409,7 @@ h2 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+/* Стили кнопки в футере */
 .footer .button {
   width: 200px;
   height: 50px;
@@ -424,6 +426,7 @@ h2 {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* Интерактивные действия */

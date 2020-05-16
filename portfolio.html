@@ -15,47 +15,48 @@
     <main>
       <!-- Шапка сайта с навигацией -->
       <header>
-        <nav>
-          <a href="./index.html" class="logo logo-font focus-text">
-            <p lang="en">
-              <b><span class="logo-blue">Web</span> Studio</b>
-            </p>
-          </a>
-          <ul>
+        <div class="container">
+          <nav>
+            <a href="" class="logo logo-font focus-text">
+              <p lang="en" class="logo-position">
+                <b><span class="logo-blue">Web</span> Studio</b>
+              </p>
+            </a>
+            <ul class="header-menu">
+              <li><a href="" class="logo nav-font hover-text">Студия</a></li>
+              <li>
+                <a href="./portfolio.html" class="logo nav-font hover-text"
+                  >Портфолио</a
+                >
+              </li>
+              <li><a href="" class="logo nav-font hover-text">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <ul class="nav-contacts">
             <li>
-              <a href="./index.html" class="logo nav-font hover-text">Студия</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="logo nav-font hover-text"
-                >Портфолио</a
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts nav-font hover-text"
+                ><img
+                  src="./images/envelope.svg"
+                  alt="e-mail"
+                />info@devstudio.com</a
               >
             </li>
-            <li><a href="" class="logo nav-font hover-text">Контакты</a></li>
+            <li>
+              <a href="tel:+380961111111" class="contacts nav-font hover-text"
+                ><img src="./images/phone.svg" alt="mobile" />+38 096 111 11
+                11</a
+              >
+            </li>
           </ul>
-        </nav>
-
-        <ul>
-          <li>
-            <a
-              href="mailto:info@devstudio.com"
-              class="contacts nav-font hover-text"
-              ><img
-                src="./images/envelope.svg"
-                alt="e-mail"
-              />info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts nav-font hover-text"
-              ><img src="./images/phone.svg" alt="mobile" />+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        </div>
       </header>
 
-      <section>
+      <section class="works">
         <!-- Список-фильтр работ -->
-        <ul>
+        <ul class="works-filter-ul">
           <li><a href="" class="filer">Все</a></li>
           <li><a href="" class="filer">Веб-сайты</a></li>
           <li><a href="" class="filer">Приложения</a></li>
@@ -64,7 +65,7 @@
         </ul>
 
         <!-- Примеры работ с фото -->
-        <ul>
+        <ul class="works-exampl-ul">
           <li>
             <a href="" class="examples">
               <img
@@ -150,78 +151,93 @@
       </section>
     </main>
     <footer class="footer footer-bg">
-      <div>
-        <a href="./index.html" class="logo logo-font-footer focus-text">
-          <p lang="en">
-            <b
-              ><span class="logo-blue">Web</span>
-              <span class="white-text">Studio</span>
-            </b>
+      <div class="container">
+        <div>
+          <a href="./index.html" class="logo logo-font-footer focus-text">
+            <p class="" lang="en">
+              <b
+                ><span class="logo-blue">Web</span>
+                <span class="white-text">Studio</span>
+              </b>
+            </p>
+          </a>
+          <address>
+            <ul class="footer-address-ul">
+              <li class="footer-address-list">
+                <a
+                  href="ссылка_на_Goolge_maps"
+                  class="address-footer focus-text"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address-list">
+                <a
+                  href="mailto:info@example.com"
+                  class="contacts-footer focus-text"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-address-list">
+                <a href="tel:+380991111111" class="contacts-footer focus-text"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="white-text footer-title">
+            <b>ПРИСОЕДИНЯЙТЕСЬ</b>
           </p>
-        </a>
-        <address>
           <ul>
-            <li>
-              <a href="ссылка_на_Goolge_maps" class="address-footer focus-text"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li>
+            <li class="footer-social-list">
               <a
-                href="mailto:info@example.com"
-                class="contacts-footer focus-text"
-                >info@example.com</a
+                href=""
+                aria-label=" Ссылка на Instagram"
+                class="footerSocialLinks"
+                >Instagram</a
               >
             </li>
-            <li>
-              <a href="tel:+380991111111" class="contacts-footer focus-text"
-                >+38 099 111 11 11</a
+            <li class="footer-social-list">
+              <a
+                href=""
+                aria-label=" Ссылка на Twitter"
+                class="footerSocialLinks"
+                >Twitter</a
+              >
+            </li>
+            <li class="footer-social-list">
+              <a
+                href=""
+                aria-label=" Ссылка на Facebook"
+                class="footerSocialLinks"
+                >Facebook</a
+              >
+            </li>
+            <li class="footer-social-list">
+              <a
+                href=""
+                aria-label=" Ссылка на LinkedIn"
+                class="footerSocialLinks"
+                >LinkedIn</a
               >
             </li>
           </ul>
-        </address>
-      </div>
-      <div>
-        <p class="white-text footer-title">
-          <b>ПРИСОЕДИНЯЙТЕСЬ</b>
-        </p>
-        <ul>
-          <li>
-            <a href="" aria-label=" Ссылка на Instagram" class="social-links"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на Twitter" class="social-links"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на Facebook" class="social-links"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на LinkedIn" class="social-links"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <form action="url" name="e-mail">
+        </div>
+        <div>
           <p class="white-text footer-title">
             <b>ПОДПИСАТЬСЯ НА РАССЫЛКУ</b>
           </p>
-          <input
-            type="email"
-            value="E-mail"
-            name="e-mail"
-            class="input-email focus-text"
-          />
-          <input type="button" value="Подписаться" class="button" />
-          <!-- <input type="submit" name="" id=""> -->
-        </form>
+          <form action="url" name="e-mail" class="form">
+            <input
+              type="email"
+              value="E-mail"
+              name="e-mail"
+              class="input-email focus-text"
+            />
+            <button class="button">Подписаться</button>
+          </form>
+        </div>
       </div>
       <p class="madeByStudents">2020 | Developed by GoIT Students</p>
     </footer>

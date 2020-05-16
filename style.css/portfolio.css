@@ -44,6 +44,16 @@
   text-decoration: none;
 }
 
+/* Отступы фильтров */
+.works-filter-ul {
+  padding-left: 0;
+}
+
+/* Отсьупы списка работ */
+.works-exampl-ul {
+  padding-left: 0;
+}
+
 /* Интерактивные действия */
 .filer:hover,
 .filer:focus,
