@@ -53,12 +53,14 @@
     <main>
       <!-- Герой -->
       <section class="hero footer-bg">
-        <!-- Ссылка на фото для хэдера -->
-        <h1 class="hero-title">
-          ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
-          ДЛЯ ВАШЕГО БИЗНЕСА
-        </h1>
-        <button type="submit" class="button">Заказать услугу</button>
+        <div class="hero-box">
+          <!-- Ссылка на фото для хэдера -->
+          <h1 class="hero-title">
+            ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
+            ДЛЯ ВАШЕГО БИЗНЕСА
+          </h1>
+          <button type="submit" class="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- блок Преимущества -->
       <section>
@@ -321,78 +323,82 @@
     </main>
     <!-- Footer -->
     <footer class="footer footer-bg">
-      <div>
-        <a href="./index.html" class="logo logo-font-footer focus-text">
-          <p lang="en">
-            <b
-              ><span class="logo-blue">Web</span>
-              <span class="white-text">Studio</span>
-            </b>
+      <div class="container">
+        <div>
+          <a href="./index.html" class="logo logo-font-footer focus-text">
+            <p class="" lang="en">
+              <b
+                ><span class="logo-blue">Web</span>
+                <span class="white-text">Studio</span>
+              </b>
+            </p>
+          </a>
+          <address>
+            <ul class="footer-address-ul">
+              <li class="footer-address-list">
+                <a
+                  href="ссылка_на_Goolge_maps"
+                  class="address-footer focus-text"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address-list">
+                <a
+                  href="mailto:info@example.com"
+                  class="contacts-footer focus-text"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-address-list">
+                <a href="tel:+380991111111" class="contacts-footer focus-text"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="white-text footer-title">
+            <b>ПРИСОЕДИНЯЙТЕСЬ</b>
           </p>
-        </a>
-        <address>
           <ul>
             <li>
-              <a href="ссылка_на_Goolge_maps" class="address-footer focus-text"
-                >г. Киев, пр-т Леси Украинки, 26</a
+              <a href="" aria-label=" Ссылка на Instagram" class="social-links"
+                >Instagram</a
               >
             </li>
             <li>
-              <a
-                href="mailto:info@example.com"
-                class="contacts-footer focus-text"
-                >info@example.com</a
+              <a href="" aria-label=" Ссылка на Twitter" class="social-links"
+                >Twitter</a
               >
             </li>
             <li>
-              <a href="tel:+380991111111" class="contacts-footer focus-text"
-                >+38 099 111 11 11</a
+              <a href="" aria-label=" Ссылка на Facebook" class="social-links"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label=" Ссылка на LinkedIn" class="social-links"
+                >LinkedIn</a
               >
             </li>
           </ul>
-        </address>
-      </div>
-      <div>
-        <p class="white-text footer-title">
-          <b>ПРИСОЕДИНЯЙТЕСЬ</b>
-        </p>
-        <ul>
-          <li>
-            <a href="" aria-label=" Ссылка на Instagram" class="social-links"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на Twitter" class="social-links"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на Facebook" class="social-links"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label=" Ссылка на LinkedIn" class="social-links"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <form action="url" name="e-mail">
-          <p class="white-text footer-title">
-            <b>ПОДПИСАТЬСЯ НА РАССЫЛКУ</b>
-          </p>
-          <input
-            type="email"
-            value="E-mail"
-            name="e-mail"
-            class="input-email focus-text"
-          />
-          <input type="button" value="Подписаться" class="button" />
-          <!-- <input type="submit" name="" id=""> -->
-        </form>
+        </div>
+        <div>
+          <form action="url" name="e-mail">
+            <p class="white-text footer-title">
+              <b>ПОДПИСАТЬСЯ НА РАССЫЛКУ</b>
+            </p>
+            <input
+              type="email"
+              value="E-mail"
+              name="e-mail"
+              class="input-email focus-text"
+            />
+            <input type="button" value="Подписаться" class="button" />
+            <!-- <input type="submit" name="" id=""> -->
+          </form>
+        </div>
       </div>
       <p class="madeByStudents">2020 | Developed by GoIT Students</p>
     </footer>
