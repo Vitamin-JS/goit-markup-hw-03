@@ -249,6 +249,46 @@ h2 {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+/* Стили Наша команда заголовок */
+.team-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+/* Обнуление отступов списка UL */
+.our-team {
+  padding: 0;
+  text-align: center;
+}
+
+/* Отступы списка членов команды */
+.team-list {
+  display: inline-block;
+  margin-top: 50px;
+  width: calc((1200px -90px) / 4);
+}
+
+/* Отступы имен членов команды */
+.team-list .logo {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+/* Отступы профессий членов команды */
+.team-list .proffesion {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Отступы соц сетей членов команды */
+.team-list > ul {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.team-list .team-list:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* Стили секции Постоянные клиенты */
 .social-links {
