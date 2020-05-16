@@ -286,6 +286,7 @@ h2 {
   padding: 0;
 }
 
+/* правій марджин нашей команды */
 .team-list .team-list:not(:last-child) {
   margin-right: 30px;
 }
@@ -294,6 +295,28 @@ h2 {
 .social-links {
   text-decoration: none;
   color: var(--primary-text-color);
+}
+/* Отступы заголовка Постоянные клиенты */
+.clients .logo {
+  margin: 0;
+  text-align: center;
+}
+
+/* Стили списка пост. клиенты */
+.compani-list {
+  padding-left: 0;
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.clients-list {
+  display: inline-block;
+  margin-bottom: 94px;
+}
+
+.clients-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Стили Футера */
