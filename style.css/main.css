@@ -139,6 +139,7 @@ body {
 
 .hero {
   height: 600px;
+  text-align: center;
 }
 
 /* Стиль кнопки героя */
@@ -210,7 +211,11 @@ h2 {
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
+
 /* Бэкграунд для белого текста - потом удалить */
 .whatWeDo-bg {
   background-color: var(--wtah-we-do-bg);
@@ -228,7 +233,7 @@ h2 {
 }
 
 .whatWeDo-list:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 26px;
 }
 
 /* Стили секции Наша команда */
