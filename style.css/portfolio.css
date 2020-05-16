@@ -6,7 +6,7 @@
   --primary-text-color: #757575;
 }
 
-/* Стили ссылок Фильтр */
+/* Примері работ Стили ссылок Фильтров */
 .filer {
   padding-left: 22px;
   padding-right: 22px;
@@ -23,6 +23,7 @@
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  display: inline-block;
 }
 
 /* Стили секции примеры работ */
@@ -38,6 +39,10 @@
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
 }
 
 .examples {
@@ -47,6 +52,37 @@
 /* Отступы фильтров */
 .works-filter-ul {
   padding-left: 0;
+  text-align: center;
+}
+
+/* Оступы фильтра */
+.filter-list {
+  display: inline-block;
+  margin-top: 93px;
+  margin-bottom: 20px;
+}
+
+/* Правый отступ фильтров */
+.filter-list:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* Отступы примеров работ */
+.work-list {
+  display: inline-block;
+  margin-top: 30px;
+  width: calc((1200px - 60px) / 3);
+}
+
+.work-list:not(:nth-child(3n)) {
+  margin-right: 26px;
+}
+
+/* Отступы заголовков Примеров работ */
+.logo.title {
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* Отсьупы списка работ */
