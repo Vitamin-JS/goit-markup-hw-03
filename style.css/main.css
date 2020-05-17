@@ -206,6 +206,13 @@ body {
   margin-top: 10px;
   margin-bottom: 0;
 }
+/* Стили иконок SVG */
+/* .icon-svg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 70px; */
+}
 
 /*=============================== Стиль секции Чем мы занимаемся================= */
 /* h2 {
