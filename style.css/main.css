@@ -46,7 +46,7 @@ body {
 /* Общие стили контейнера */
 .container {
   width: 1200px;
-  background-color: rgb(109, 190, 190);
+  /* background-color: rgb(109, 190, 190); */
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
@@ -380,7 +380,10 @@ body {
   margin-right: 30px;
 }
 
-/* =====================      Стили Футера     ============================== */
+/* ==================================Стили Футера ============================== */
+footer {
+  height: 253px;
+}
 .logo-font-footer {
   display: inline-block;
   font-size: 22px;
@@ -430,7 +433,7 @@ body {
 .footer-flexBox {
   display: flex;
 }
-/* Флекс бокс блока ссылок и заголовка  */
+/* Флекс бокс блока ссылок и заголовка=======Блок ссылок===== */
 .footerLinks-box {
   display: flex;
   flex-direction: column;
@@ -442,14 +445,13 @@ body {
   display: flex;
 }
 
+/* Список UL ссылок */
 .links-list {
   display: flex;
   padding: 0;
 }
-/*                                   Флекс бокс ссылок */
-/* .links-box {
-} */
 
+/* Стили заголовков футера */
 .footer-title {
   font-size: 14px;
   line-height: 1.14;
@@ -475,7 +477,12 @@ body {
   margin-right: 11px;
 }
 
-/* Отступы поля форма футер */
+/* Отступы поля форма футер ========= Блок Форма=============== */
+/* Отступы блока Форма */
+.footerMail-box {
+  margin-left: auto;
+}
+
 .form {
   margin-top: 21px;
 }
