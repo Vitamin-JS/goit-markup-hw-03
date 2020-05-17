@@ -6,7 +6,7 @@
   --primary-text-color: #757575;
 }
 
-/* Примері работ Стили ссылок Фильтров */
+/* Примеры работ Стили ссылок Фильтров */
 .filer {
   padding-left: 22px;
   padding-right: 22px;
@@ -26,13 +26,13 @@
   display: inline-block;
 }
 
-/* Стили секции примеры работ */
+/* Стили секции Примеры работ */
 .title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
+/* Стиль текста вид работы */
 .work-type {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -66,7 +66,11 @@
 .filter-list:not(:last-child) {
   margin-right: 8px;
 }
-
+/* Флекс бокс с примерами работ */
+.works-box {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* Отступы примеров работ */
 .work-list {
   display: inline-block;
