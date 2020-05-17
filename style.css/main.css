@@ -341,6 +341,18 @@ body {
 }
 
 /* ============================Стили секции Постоянные клиенты====================== */
+/* Флекс бокс заголовка  */
+.clientsTitle-box {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+/* Флекс бокс списка компаний */
+.clients-box {
+  display: flex;
+  justify-content: center;
+}
+
 .social-links {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -348,7 +360,7 @@ body {
 
 /* Отступы заголовка Постоянные клиенты */
 .clients .logo {
-  margin: 0;
+  margin: 94px 0 0;
   text-align: center;
 }
 
@@ -356,19 +368,19 @@ body {
 .compani-list {
   padding-left: 0;
   margin-top: 50px;
+  margin-bottom: 94px;
   text-align: center;
 }
 /* Отступы спика сомпаний */
 .clients-list {
   display: inline-block;
-  margin-bottom: 94px;
 }
 /* Правый отступ списка компаний */
 .clients-list:not(:last-child) {
   margin-right: 30px;
 }
 
-/* Стили Футера */
+/* =====================      Стили Футера     ============================== */
 .logo-font-footer {
   display: inline-block;
   font-size: 22px;
