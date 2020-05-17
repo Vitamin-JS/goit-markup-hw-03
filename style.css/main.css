@@ -180,7 +180,7 @@ body {
 
 .advant-list {
   display: inline-block;
-  margin: 40px 0 0;
+  margin: 94px 0 0;
   width: calc((1200px - 90px) / 4);
 }
 
@@ -188,7 +188,7 @@ body {
   margin-right: 26px;
 }
 
-/* Стили текста секции Преимущества */
+/* Стили текста заголовка секции Преимущества */
 .title {
   font-weight: 700;
   font-size: 14px;
@@ -198,7 +198,7 @@ body {
   margin-bottom: 0;
   margin-right: auto;
 }
-
+/* Стили блока Преимущества */
 .text-advetages {
   font-size: 14px;
   line-height: 1.7;
@@ -207,20 +207,39 @@ body {
   margin-bottom: 0;
 }
 
-/* Стиль секции Чем мы занимаемся */
-h2 {
+/*=============================== Стиль секции Чем мы занимаемся================= */
+/* h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+} */
+
+/* Свойства заголовка флекс блока ЧМЗ */
+.whatWeDo-box-title {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
 }
 
+/* Стили заголовка ЧМЗ */
 .whatWeDo .logo {
-  margin-top: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-top: 94px;
   margin-bottom: 50px;
+
   text-align: center;
 }
 
+/*Свойства списка флекс блока ЧМЗ  */
+.whatWeDo-box-list {
+  display: flex;
+  width: 1200px;
+}
+/* Стили текста видов работ ЧМЗ */
 .whatWeDo-text {
   font-weight: bold;
   font-size: 14px;
@@ -228,6 +247,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 27px;
   padding-bottom: 27px;
 }
@@ -239,7 +259,7 @@ h2 {
 
 /* Отступы UL блока Чем мы занимаемся */
 .whatWeDo-ul {
-  margin: 0;
+  margin: 0 0 94px;
   padding-left: 0;
 }
 /* Размеры списка работ */
@@ -252,7 +272,19 @@ h2 {
   margin-right: 26px;
 }
 
-/* Стили секции Наша команда */
+/* =============================Стили секции Наша команда=========================== */
+.team-box {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+
+/* Стили Наша команда заголовок */
+.team-title {
+  margin-top: 94px;
+  margin-bottom: 0px;
+}
+
 .our-team .logo {
   font-weight: 500;
   font-size: 16px;
@@ -265,12 +297,7 @@ h2 {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Стили Наша команда заголовок */
-.team-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
+
 /* Обнуление отступов списка UL */
 .our-team {
   padding: 0;
@@ -281,7 +308,7 @@ h2 {
 .team-list {
   display: inline-block;
   margin-top: 50px;
-  width: calc((1200px -90px) / 4);
+  width: 274px;
 }
 
 /* Отступы имен членов команды */
@@ -289,6 +316,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 0;
 }
+
 /* Отступы профессий членов команды */
 .team-list .proffesion {
   margin-top: 10px;
@@ -302,12 +330,12 @@ h2 {
   padding: 0;
 }
 
-/* правій марджин нашей команды */
-.team-list .team-list:not(:last-child) {
+/* Правый марджин нашей команды */
+.team-list:not(:last-child) {
   margin-right: 30px;
 }
 
-/* Стили секции Постоянные клиенты */
+/* ============================Стили секции Постоянные клиенты====================== */
 .social-links {
   text-decoration: none;
   color: var(--primary-text-color);
