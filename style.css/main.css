@@ -62,7 +62,7 @@ body {
 .logo-blue {
   color: var(--accent-color-blue);
 }
-
+/* ================================Свойства блока Хедер=============================== */
 /* Отступы лого */
 .logo-font {
   display: inline-block;
@@ -132,9 +132,9 @@ body {
   height: 80px;
 }
 
-/* Стили для  секции hero */
+/* ==========================Стили для  секции Герой=========================== */
 .hero-title {
-  margin: 0;
+  margin: 200px 0 0;
   color: var(--white-bg-color);
   font-weight: 700;
   font-size: 44px;
@@ -143,6 +143,7 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* Свойства секции Герой */
 .hero {
   height: 600px;
   text-align: center;
@@ -160,8 +161,17 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   margin-top: 46px;
+  padding: 0;
 }
 
+/* Герой флекс свойства контейнера */
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ================================Свойства блока Преимущества====================== */
 /* Отступы блока Преимущества */
 .advatn {
   margin: 0;
