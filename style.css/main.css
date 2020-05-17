@@ -297,17 +297,22 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+/* Флекс бокс списка Наша команда */
+.ourTeam-box {
+  display: flex;
+}
 
 /* Обнуление отступов списка UL */
 .our-team {
   padding: 0;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 /* Отступы списка членов команды */
 .team-list {
   display: inline-block;
-  margin-top: 50px;
   width: 274px;
 }
 
