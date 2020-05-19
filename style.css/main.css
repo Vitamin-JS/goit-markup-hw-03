@@ -21,7 +21,6 @@
 
 html {
   box-sizing: border-box;
-  width: 1600px;
 }
 
 *,
@@ -65,9 +64,10 @@ body {
 /* ================================Свойства блока Хедер=============================== */
 /* Отступы лого */
 .logo-font {
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 0;
+
+  margin-top: 24px;
+  margin-bottom: 25px;
+ 
 }
 /* Обнуление отступа <p>-лого  */
 .logo-position {
@@ -90,6 +90,7 @@ body {
 
 /* Отступы Навигация контакты */
 .nav-contacts {
+  
   margin-left: auto;
   padding: 0;
 }
@@ -104,17 +105,22 @@ body {
 
 /* Размеры блока хедер */
 .header-menu,
-.header-menu > li,
-.nav-contacts,
-.nav-contacts > li {
-  display: inline-block;
+.nav-contacts {        
+display: flex;                             
 }
+
 /* Отступы меню навигации */
 .header-menu {
-  margin-left: 86px;
+  margin-left: 85px;
   padding: 0;
 }
 
+.nav-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+} 
+
+/* Правый отступ меню навигации */
 .nav-list:not(:last-child) {
   margin-right: 50px;
 }
@@ -129,7 +135,7 @@ body {
 .navBox-contacts {
   display: flex;
   align-items: center;
-  height: 80px;
+  
 }
 
 /* ==========================Стили для  секции Герой=========================== */
