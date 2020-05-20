@@ -44,7 +44,7 @@ body {
 
 /* Общие стили контейнера */
 .container {
-  width: 1200px;
+  width: 1170px;
   /* background-color: rgb(109, 190, 190); */
   margin-left: auto;
   margin-right: auto;
@@ -64,10 +64,8 @@ body {
 /* ================================Свойства блока Хедер=============================== */
 /* Отступы лого */
 .logo-font {
-
   margin-top: 24px;
   margin-bottom: 25px;
- 
 }
 /* Обнуление отступа <p>-лого  */
 .logo-position {
@@ -90,7 +88,6 @@ body {
 
 /* Отступы Навигация контакты */
 .nav-contacts {
-  
   margin-left: auto;
   padding: 0;
 }
@@ -105,8 +102,8 @@ body {
 
 /* Размеры блока хедер */
 .header-menu,
-.nav-contacts {        
-display: flex;                             
+.nav-contacts {
+  display: flex;
 }
 
 /* Отступы меню навигации */
@@ -118,7 +115,7 @@ display: flex;
 .nav-list {
   padding-top: 32px;
   padding-bottom: 32px;
-} 
+}
 
 /* Правый отступ меню навигации */
 .nav-list:not(:last-child) {
@@ -135,7 +132,6 @@ display: flex;
 .navBox-contacts {
   display: flex;
   align-items: center;
-  
 }
 
 /* ==========================Стили для  секции Герой=========================== */
@@ -152,7 +148,6 @@ display: flex;
 
 /* Свойства секции Герой  -   Удалил*/
 
-
 /* Стиль кнопки героя */
 .hero .button {
   height: 50px;
@@ -165,7 +160,6 @@ display: flex;
   text-align: center;
   letter-spacing: 0.06em;
   padding: 0;
-  
 }
 
 /* Герой флекс свойства контейнера */
@@ -173,23 +167,18 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 /* ================================Свойства блока Преимущества====================== */
 /* Отступы блока Преимущества */
 .advatn {
-  margin: 0;
   padding: 0;
   display: flex;
-        
-
 }
 /* Падинги всей секции */
 .advant-section {
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 /* Нижний отступ от иконки */
 .icon-svg {
@@ -197,10 +186,9 @@ display: flex;
 }
 
 .advant-list {
-  
-  flex-direction: column; 
-  margin: 0;
-  width: calc((1200px - 90px) / 4);
+  /* flex-direction: column;
+  margin: 0; */
+  width: calc((1170px - 90px) / 4);
 }
 
 .advant-list:not(:last-child) {
@@ -224,26 +212,13 @@ display: flex;
   letter-spacing: 0.03em;
   margin: 0;
 }
-/* Стили иконок SVG */
-/* .icon-svg {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;
-  height: 70px; */
-}
 
 /*=============================== Стиль секции Чем мы занимаемся================= */
-/* h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-} */
 
 /* Свойства заголовка флекс блока ЧМЗ */
 .whatWeDo-box-title {
   display: flex;
-  width: 1200px;
+  width: 1170px;
   justify-content: center;
 }
 
@@ -261,7 +236,7 @@ display: flex;
 /*Свойства списка флекс блока ЧМЗ  */
 .whatWeDo-box-list {
   display: flex;
-  width: 1200px;
+  width: 1170px;
 }
 /* Стили текста видов работ ЧМЗ */
 .whatWeDo-text {
@@ -283,17 +258,18 @@ display: flex;
 
 /* Отступы UL блока Чем мы занимаемся */
 .whatWeDo-ul {
-  margin: 0;   
+  display: flex;
+
+  margin: 0;
   padding: 0;
 }
 /* Размеры списка работ */
 .whatWeDo-list {
-  display: inline-block;
-  width: cal(1140 / 3); /* (1200px - 60px) */
+  width: calc((1170px - 60px) / 3);
 }
 
 .whatWeDo-list:not(:last-child) {
-  margin-right: 26px;
+  margin-right: 30px;
 }
 
 /* Верхний падинг для всей секции */
