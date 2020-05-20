@@ -61,6 +61,11 @@ body {
 .logo-blue {
   color: var(--accent-color-blue);
 }
+
+.image-block {
+  display: block;
+  max-width: 100%;
+}
 /* ================================Свойства блока Хедер=============================== */
 /* Отступы лого */
 .logo-font {
@@ -215,13 +220,6 @@ body {
 
 /*=============================== Стиль секции Чем мы занимаемся================= */
 
-/* Свойства заголовка флекс блока ЧМЗ */
-/* .whatWeDo-box-title {
-  display: flex;
-  width: 1170px;
-  justify-content: center;
-} */
-
 /* Стили заголовка ЧМЗ */
 .whatWeDo .logo {
   font-weight: 700;
@@ -233,11 +231,6 @@ body {
   text-align: center;
 }
 
-/*Свойства списка флекс блока ЧМЗ  */
-/* .whatWeDo-box-list {
-  display: flex;
-  width: 1170px;
-} */
 /* Стили текста видов работ ЧМЗ */
 .whatWeDo-text {
   font-weight: bold;
@@ -279,16 +272,16 @@ body {
 }
 
 /* =============================Стили секции Наша команда=========================== */
-.team-box {
-  display: flex;
-  width: 1200px;
-  justify-content: center;
-}
 
 /* Стили Наша команда заголовок */
 .team-title {
-  margin-top: 94px;
-  margin-bottom: 0px;
+  font-size: 36px;
+  line-height: 1.17;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team .logo {
@@ -303,17 +296,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Флекс бокс списка Наша команда */
-.ourTeam-box {
-  display: flex;
-}
 
 /* Обнуление отступов списка UL */
 .our-team {
   padding: 0;
+  margin: 0;
+  display: flex;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 /* Отступы списка членов команды */
@@ -334,9 +323,10 @@ body {
   margin-bottom: 0;
 }
 
-/* Отступы соц сетей членов команды */
-.team-list > ul {
-  display: inline-block;
+/* Стили соц сетей команды */
+.our-team-links {
+  display: flex;
+  flex-direction: row;
   margin-top: 16px;
   padding: 0;
 }
@@ -344,6 +334,11 @@ body {
 /* Правый марджин нашей команды */
 .team-list:not(:last-child) {
   margin-right: 30px;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ============================Стили секции Постоянные клиенты====================== */
