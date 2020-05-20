@@ -253,9 +253,8 @@ display: flex;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 50px;
-
   text-align: center;
 }
 
@@ -284,8 +283,8 @@ display: flex;
 
 /* Отступы UL блока Чем мы занимаемся */
 .whatWeDo-ul {
-  margin: 0 0 94px;
-  padding-left: 0;
+  margin: 0;   
+  padding: 0;
 }
 /* Размеры списка работ */
 .whatWeDo-list {
@@ -295,6 +294,12 @@ display: flex;
 
 .whatWeDo-list:not(:last-child) {
   margin-right: 26px;
+}
+
+/* Верхний падинг для всей секции */
+.whatWeDo {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* =============================Стили секции Наша команда=========================== */
