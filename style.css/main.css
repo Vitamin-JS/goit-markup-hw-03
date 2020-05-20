@@ -305,6 +305,11 @@ body {
   text-align: center;
 }
 
+/* Отступы от фото команды */
+.team-list .image-block {
+  margin-bottom: 30px;
+}
+
 /* Отступы списка членов команды */
 .team-list {
   display: inline-block;
@@ -313,21 +318,21 @@ body {
 
 /* Отступы имен членов команды */
 .team-list .logo {
-  margin-top: 30px;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* Отступы профессий членов команды */
-.team-list .proffesion {
-  margin-top: 10px;
-  margin-bottom: 0;
+.proffesion {
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 
 /* Стили соц сетей команды */
 .our-team-links {
   display: flex;
   flex-direction: row;
-  margin-top: 16px;
+  margin: 0;
   padding: 0;
 }
 
