@@ -366,24 +366,32 @@ body {
 
 /* Отступы заголовка Постоянные клиенты */
 .clients .logo {
-  margin: 94px 0 0;
+  font-size: 36px;
+  line-height: 1.17;
+  margin: 0 0 50px;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Стили списка пост. клиенты */
 .compani-list {
   padding-left: 0;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
-/* Отступы спика сомпаний */
-.clients-list {
-  display: inline-block;
-}
+
 /* Правый отступ списка компаний */
 .clients-list:not(:last-child) {
   margin-right: 30px;
+}
+
+/* Отсупы всей секции */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ==================================Стили Футера ============================== */
