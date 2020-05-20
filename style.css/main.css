@@ -216,11 +216,11 @@ body {
 /*=============================== Стиль секции Чем мы занимаемся================= */
 
 /* Свойства заголовка флекс блока ЧМЗ */
-.whatWeDo-box-title {
+/* .whatWeDo-box-title {
   display: flex;
   width: 1170px;
   justify-content: center;
-}
+} */
 
 /* Стили заголовка ЧМЗ */
 .whatWeDo .logo {
@@ -234,10 +234,10 @@ body {
 }
 
 /*Свойства списка флекс блока ЧМЗ  */
-.whatWeDo-box-list {
+/* .whatWeDo-box-list {
   display: flex;
   width: 1170px;
-}
+} */
 /* Стили текста видов работ ЧМЗ */
 .whatWeDo-text {
   font-weight: bold;
