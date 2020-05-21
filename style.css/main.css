@@ -401,7 +401,6 @@ footer {
 .logo-font-footer {
   display: inline-block;
   font-size: 22px;
-  margin-top: 48px;
 }
 
 /* ===============Заголовки белым цветом */
@@ -437,6 +436,7 @@ footer {
 /* Отступы спика контактов футера UL */
 .footer-address-ul {
   padding: 0;
+  min-width: 231px;
 }
 
 .footer-address-list:not(:first-child) {
@@ -446,13 +446,15 @@ footer {
 /* Флекс бокс всего футера */
 .footer-flexBox {
   display: flex;
+  align-items: baseline;
 }
 /* Флекс бокс блока ссылок и заголовка=======Блок ссылок===== */
 .footerLinks-box {
   display: flex;
   flex-direction: column;
-  margin-left: 179px;
+  margin-left: 69px;
   width: 207px;
+  padding-top: 56px;
 }
 /* Флекс бокс тайтл */
 .footerTitle-box {
@@ -470,8 +472,9 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  margin-top: 56px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 21px;
+  display: block;
 }
 /* Лого футера -  отступы*/
 .logo-font-footer > p {
@@ -484,7 +487,6 @@ footer {
   text-decoration: none;
   color: var(--primary-text-color);
   display: inline-block;
-  margin-top: 21px;
 }
 /* Отступы  справа соц.ссылок футера */
 .footer-social-list:not(:last-child) {
@@ -494,15 +496,17 @@ footer {
 /* Отступы поля форма футер ========= Блок Форма=============== */
 /* Отступы блока Форма */
 .footerMail-box {
-  margin-left: auto;
+  display: flex;
+  margin-left: 93px;
+  flex-direction: column;
 }
 
 .form {
-  margin-top: 21px;
+  display: flex;
 }
 /* Стили поля e-mail */
 .input-email {
-  width: 270px;
+  width: 358px;
   height: 50px;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -524,6 +528,7 @@ footer {
   font-size: 16px;
   line-height: 1.9;
   margin-left: 12px;
+  padding: 0;
 }
 
 .madeByStudents {
