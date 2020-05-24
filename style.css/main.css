@@ -317,6 +317,7 @@ header {
 .team-list {
   display: inline-block;
   width: 274px;
+  background-color: var(--white-bg-color);
 }
 
 /* Отступы имен членов команды */
@@ -347,6 +348,7 @@ header {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--gray-bg-color);
 }
 
 /* ============================Стили секции Постоянные клиенты====================== */
@@ -393,7 +395,7 @@ header {
 
 /* Отсупы всей секции */
 .clients {
-  padding-top: 94px;
+  padding-top: 120px;
   padding-bottom: 94px;
 }
 
