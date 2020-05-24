@@ -26,6 +26,11 @@
   display: inline-block;
 }
 
+/* Отступы секции Примеры работ */
+.works {
+  padding-top: 93px;
+}
+
 /* Стили секции Примеры работ */
 .title {
   font-size: 18px;
@@ -51,14 +56,14 @@
 
 /* Отступы фильтров */
 .works-filter-ul {
+  display: flex;
   padding-left: 0;
   text-align: center;
 }
 
 /* Оступы фильтра */
 .filter-list {
-  display: inline-block;
-  margin-top: 93px;
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -75,7 +80,7 @@
 .work-list {
   display: inline-block;
   margin-top: 30px;
-  width: calc((1200px - 60px) / 3);
+  width: calc((1170px - 60px) / 3);
 }
 
 .work-list:not(:nth-child(3n)) {
