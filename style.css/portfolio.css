@@ -29,6 +29,7 @@
 /* Отступы секции Примеры работ */
 .works {
   padding-top: 93px;
+  padding-bottom: 94px;
 }
 
 /* Стили секции Примеры работ */
@@ -57,14 +58,15 @@
 /* Отступы фильтров */
 .works-filter-ul {
   display: flex;
+  justify-content: center;
   padding-left: 0;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 /* Оступы фильтра */
 .filter-list {
   display: block;
-  margin-bottom: 20px;
 }
 
 /* Правый отступ фильтров */
@@ -92,6 +94,7 @@
   margin-top: 20px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 0;
 }
 
 /* Отсьупы списка работ */
