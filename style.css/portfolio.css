@@ -38,7 +38,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
 }
-/* Стиль текста вид работы */
+/* Стиль текста виды работ */
 .work-type {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -46,9 +46,7 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-top: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .examples {
@@ -80,7 +78,6 @@
 }
 /* Отступы примеров работ */
 .work-list {
-  /* display: inline-block; */
   margin-top: 30px;
   width: calc((1170px - 60px) / 3);
 }
@@ -91,17 +88,34 @@
 
 /* Отступы заголовков Примеров работ */
 .logo.title {
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 0;
 }
 
-/* Отсьупы списка работ */
+/* Отступы списка работ */
 .works-exampl-ul {
-  display: flex; /*  new */
+  display: flex;
   padding-left: 0;
   flex-wrap: wrap;
+}
+
+/* Свойства блока карточки товара  */
+.card {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+}
+
+/* Бордеры и отступы контента карточек работ */
+.card-content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* Интерактивные действия */
