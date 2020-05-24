@@ -45,10 +45,9 @@ body {
 /* Общие стили контейнера */
 .container {
   width: 1170px;
-  /* background-color: rgb(109, 190, 190); */
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 1px double rgb(196, 139, 129); */
 }
 
 /* Черный шрифт для лого и других тайтлов */
@@ -137,6 +136,10 @@ body {
 .navBox-contacts {
   display: flex;
   align-items: center;
+}
+
+header {
+  border-bottom: 2px solid #ececec;
 }
 
 /* ==========================Стили для  секции Герой=========================== */
@@ -447,6 +450,8 @@ footer {
 .footer-flexBox {
   display: flex;
   align-items: baseline;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 /* Флекс бокс блока ссылок и заголовка=======Блок ссылок===== */
 .footerLinks-box {
@@ -537,6 +542,8 @@ footer {
   line-height: 2;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 18px;
+  margin-bottom: 21px;
 }
 
 /* Интерактивные действия */
