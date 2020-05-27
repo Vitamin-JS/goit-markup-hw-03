@@ -194,8 +194,6 @@ header {
 }
 
 .advant-list {
-  /* flex-direction: column;
-  margin: 0; */
   width: calc((1170px - 90px) / 4);
 }
 
@@ -355,7 +353,7 @@ header {
 /* Флекс бокс заголовка  */
 .clientsTitle-box {
   display: flex;
-  width: 1200px;
+  width: 1170px;
   justify-content: center;
 }
 /* Флекс бокс списка компаний */
@@ -535,7 +533,22 @@ footer {
   font-size: 16px;
   line-height: 1.9;
   margin-left: 12px;
-  padding: 0;
+  padding-top: 10px; /*       new   */
+  padding-bottom: 10px; /*    new   */
+  padding-left: 29px; /*      new   */
+  text-decoration: none; /*   new   */
+  display: inline-flex; /*    new   */
+  cursor: pointer; /*         new   */
+  align-items: center; /*     new   */
+}
+
+.footer .button::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../images/telegram.svg);
+  background-size: contain;
 }
 
 .madeByStudents {
